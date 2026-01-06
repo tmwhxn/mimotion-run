@@ -99,6 +99,7 @@ class MiMotion():
         except Exception as e:
             error_traceback = traceback.format_exc()
             print(error_traceback)
+            
 
 
     def login(self, user, password):
